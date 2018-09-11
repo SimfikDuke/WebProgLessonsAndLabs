@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+head {
+    background-color:#a6e968;
+}
+input[type="number"]{
+    width: 55px;
+    text-align: center;
+    border-radius: 5px;
+}
+header{
+    width: 98%;
+    background-image: url("img/head.jpg");
+    background-color:#a6e968;
+    text-align: center;
+    font-size: 10ch;
+    border-style: dashed;
+    border-color: #5fa041;
+    border-radius: 10px;
+    margin-left: 1%;
+    }
+body {
+    background-image: url("img/background.jpg");
+    background-color:#f8f3db;
+}
+.maincontent {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    align-content: center;
+}
+.block0 { 
+    background-color: #f8f3db;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    border-radius: 25px;
+    border: inset 3px black;
+    display: inline-block;
+    vertical-align: left;
+    font: bold 18px black;
+    padding: 5px;
+}
+.block1 { 
+    background-color: #ffe9e2b0;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border-radius: 25px;
+    border: inset 3px black;
+    display: inline-block;
+    vertical-align: middle;
+    font: bold 18px black;
+    text-align: center;
+    padding: 6px;
+}
+#ident {color:#ffffff; font-weight:bold}
